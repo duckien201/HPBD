@@ -65,7 +65,7 @@ body {
     position: absolute;
     bottom: 20px;
     right: 20px;
-    height: 100px;
+    height: 200px;
 }
 
 .sticker {
@@ -148,6 +148,8 @@ body {
 }
 
 .bannerParty {
+    width: 250px;
+    height: 250px;
     position: absolute;
     left: 50%;
     transform: translate(-50%, 20px);
@@ -269,8 +271,8 @@ body {
     bottom: 0;
     right: 0;
     transform: translate(50%, 50%);
-    height: 60px;
-    width: 60px;
+    height: 120px;
+    width: 120px;
     display: flex;
     justify-content: center;
     align-items: center;
