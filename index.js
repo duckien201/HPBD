@@ -1,5 +1,5 @@
 const contentLetterSrart_actived = "Hãy mở ra nhie ..." //Lời mở đầu cho bức thư
-const mainContentLetter = "Nhân dịp ngày lành tháng tốt. Trân trọng kính mời em Nghĩa và người thương đến dự buổi trao bằng tốt nghiệp của anh tại hội trường G3 trường Đại học Xây Dựng Hà Nội vào lúc 8h ngày 01/03/2025(Tức ngày 02 tháng 02 năm Ất Tỵ). Sự hiện diện của em là niềm vinh hạnh của anh " 
+const mainContentLetter = "Nhân dịp ngày lành tháng tốt. Trân trọng kính mời anh Khoa và người thương đến dự buổi trao bằng tốt nghiệp của em tại hội trường G3 trường Đại học Xây Dựng Hà Nội vào lúc 8h ngày 01/03/2025(Tức ngày 02 tháng 02 năm Ất Tỵ). Sự hiện diện của anh là niềm vinh hạnh của em " 
 //Nội dung của bức thư
 
 // Gắn 1 đường link ảnh bất kì
@@ -9,7 +9,7 @@ imgStart.src = "./img/IMG_4701-removebg-preview.png";
 
 // Gắn 1 link ảnh bất kì
 let imgLetter = document.querySelector(".img");
-imgLetter.src = "./img/nghia.png"; //Hình ảnh xuất hiện trong nội dung của bức thư sau khi bức thư được viết ra hết
+imgLetter.src = "./img/khoa-removebg-preview.png"; //Hình ảnh xuất hiện trong nội dung của bức thư sau khi bức thư được viết ra hết
 
 const splitContentLetterSrart_actived = contentLetterSrart_actived.split("");
 
