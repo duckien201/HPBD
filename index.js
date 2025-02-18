@@ -1,15 +1,15 @@
-const contentLetterSrart_actived = "Hãy mở bức thư này ra nhie ....." //Lời mở đầu cho bức thư
-const mainContentLetter = "Chúng mình biết và chơi với nhau cũng 6 năm rồi he. Trong 6 năm qua, có đủ mọi thứ buồn vui và luôn nhớ là chúng ta vẫn là bạn. Cảm ơn bạn vì luôn nhớ đến tôi mỗi khi cần người tâm sự(đưa đi đón về :3, t thấy vui về điều đó).Chúc bạn tuổi mới luôn mạnh khỏe,mãi xinh, mãi slay, đặc biệt bớt Overthinking dùm tôi please... Cuối cùng chúc bạn 8386 Mãi đỉnh, Mãi đỉnh, Mãi đỉnh luôn  " 
+const contentLetterSrart_actived = "Hãy mở ra nhie ..." //Lời mở đầu cho bức thư
+const mainContentLetter = "Nhân dịp ngày lành tháng tốt. Trân trọng kính mời bạn Mai và người thương đến dự buổi trao bằng tốt nghiệp của tôi tại hội trường G3 trường Đại học Xây Dựng Hà Nội vào lúc 8h ngày 01/03/2025(Tức ngày 02 tháng 02 năm Ất Tỵ). Sự hiện diện của bạn là niềm vinh hạnh của tôi " 
 //Nội dung của bức thư
 
 // Gắn 1 đường link ảnh bất kì
 let imgStart = document.querySelector(".myAI"); //Hình ảnh xuất hiện trong lời mở đầu của bức thư
-imgStart.src = "./img/Remove-bg.ai_1732803614790.png";
+imgStart.src = "./img/IMG_4701-removebg-preview.png";
 
 
 // Gắn 1 link ảnh bất kì
 let imgLetter = document.querySelector(".img");
-imgLetter.src = "./img/Remove-bg.ai_1732803745759.png"; //Hình ảnh xuất hiện trong nội dung của bức thư sau khi bức thư được viết ra hết
+imgLetter.src = "./img/IMG_20210501_214537_396-removebg-preview.png"; //Hình ảnh xuất hiện trong nội dung của bức thư sau khi bức thư được viết ra hết
 
 const splitContentLetterSrart_actived = contentLetterSrart_actived.split("");
 
